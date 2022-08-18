@@ -1,0 +1,19 @@
+.wrapper {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 512px 1700px 448px 432px 80px;
+    grid-template-areas:
+        "header header"
+        "content sidebar"
+        "contact contact"
+        "info info"
+        "footer footer";
+}
+
+
+.card>figure>img {
+    width: 250px;
+}
+
+.pagination {
+    margin-top: 10px;
+}

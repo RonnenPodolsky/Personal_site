@@ -1,0 +1,110 @@
+
+    .wrapper {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 512px 1610px 448px 432px 80px;
+        grid-template-areas:
+            "header header"
+            "content sidebar"
+            "contact contact"
+            "info info"
+            "footer footer";
+    }
+
+    .contact h1 {
+        left: 34.86%;
+        right: 35.16%;
+        top: calc(1541px - 64px/2 + 840px);
+    }
+
+    .contact h2 {
+        left: 41.31%;
+        right: 41.6%;
+        top: calc(1541px - 24px/2 + 773px);
+
+    }
+
+    .contact>div {
+        flex-direction: row;
+        gap: 10px;
+        top: 78.87%;
+    }
+
+    .main-nav img {
+        top: 0.46%;
+    }
+
+    .info h1 {
+        left: 7.96%;
+        right: 87.4%;
+        top: calc(1461px - 80px/2 + 1234px);
+    }
+
+    .info p {
+        width: 40%;
+    }
+
+    .grid-text {
+        left: 66.8%;
+        right: 28.71%;
+        top: calc(1471px - 24px/2 + 1239px);
+    }
+
+    .main-footer p {
+
+        top: 97.3%;
+
+
+    }
+
+    .social-nav {
+        top: 95.28%;
+    }
+
+    .side {
+        position: relative;
+    }
+
+    .categories {
+        top: 2%;
+        bottom: 80%;
+    }
+
+    .recentpost {
+        top: 22%;
+        bottom: 52%;
+    }
+
+    .tags {
+        top: 50%;
+        bottom: 25%;
+    }
+
+    .card {
+        width: auto;
+        margin-left: 28px;
+    }
+
+    .card-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .card>figure>img {
+        width: 85%;
+    }
+
+    .main-nav ul {
+
+        /* identical to box height */
+
+        top: 1%;
+    }
+
+    .pagination {
+        margin-top: 30px;
+    }
+
+
+
